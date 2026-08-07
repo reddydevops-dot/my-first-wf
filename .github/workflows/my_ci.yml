@@ -1,0 +1,10 @@
+on:
+  push:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest # Runnr/Guthub runner, Its a Github hosted runner
+
+    steps:  # you can execute your own commands
+      - name: Print Message
+        run: echo "Welcome Github Actions"
