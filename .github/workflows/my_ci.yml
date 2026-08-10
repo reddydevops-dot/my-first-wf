@@ -1,5 +1,6 @@
+name : "running linux command"
 on:
-  push:
+  pull_request:  # 
 
 jobs:
   hello:
@@ -7,4 +8,4 @@ jobs:
 
     steps:  # you can execute your own commands
       - name: Print Message
-        run: echo "Welcome Github Actions"
+        run: echo "Welcome git push"
